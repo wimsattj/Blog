@@ -44,20 +44,7 @@ p {
 .footer{
   display:grid;
 }
-.footer-wrapper{
-  background-image: url("./depositphotos_185363006-stock-photo-global-communication-technology-background.jpg");
-  background-position: center;
-  background-size: cover;
-  width:60%;
-  position: fixed;
-  bottom: 0;
-  height: 5rem;
-  flex-direction: row;
-  display: flex;
-  justify-self: center;
-  width:762px;
 
-}
 .wrapper-text{
   display: flex;
   width: 60%;
