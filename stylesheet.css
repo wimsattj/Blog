@@ -1,0 +1,99 @@
+body {
+  background: linear-gradient(-2deg, #F9FFD7,#DDD7FF);
+  font-family: 'Tapestry', cursive,Arial, Helvetica, sans-serif;
+  letter-spacing:2px;
+}
+.smaller {
+  font-size: 20px;
+  padding: 10px;
+}
+h3 {
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(2deg, lightyellow, lightblue);
+  color: black;
+}
+th{
+  padding: 10px;
+  width:20%;
+  text-align: left;
+  vertical-align:top;
+  position: fixed;
+  z-index:2;
+  top:0;
+}
+table {
+  width: 80%;
+}
+
+img {
+  width: 22%;
+  height: 22%;
+  border-radius:10px;
+}
+
+p {
+  /*position:relative;*/
+  line-height: 1.6;
+  font-family: 'Tapestry', cursive,Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding: 20px;
+}
+.footer{
+  display:grid;
+}
+.footer-wrapper{
+  background-image: url("./depositphotos_185363006-stock-photo-global-communication-technology-background.jpg");
+  background-position: center;
+  background-size: cover;
+  width:60%;
+  position: fixed;
+  bottom: 0;
+  height: 5rem;
+  flex-direction: row;
+  display: flex;
+  justify-self: center;
+  width:762px;
+
+}
+.wrapper-text{
+  display: flex;
+  width: 60%;
+  margin-left:auto;
+  align-self: center;
+  flex-direction: column;
+}
+.footer  h4{ font-size:16px;}
+.footer  p{ font-size:12px;}
+
+.footer p,
+.footer h4{
+
+  font-family: sans-serif;
+  width:fit-content;
+  margin:0;
+  padding:0;
+  color: white;
+  text-shadow: 0 0 5px black, 0 0 5px black, 0 0 2px black;
+
+}
+.button-wrapper{
+  display:block;
+  align-self: center;
+ 
+
+}
+.button{
+  font-family: sans-serif;
+  font-size:small;
+  display:flex;
+  color:black;
+  padding:10px;
+  border-radius: 5px;
+  align-self: center;
+  margin-right: 20px;
+  text-decoration: 0;
+  background-color: white;
+}
